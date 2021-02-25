@@ -7,12 +7,13 @@
 
 import Foundation
 
-struct Repository: Codable {
+/// Struct of a repository from GitHub Api
+struct Repository: Codable, Equatable {
     
     let id:Int
     let name: String
     let full_name: String
-    let description: String
+    let description: String?
     let stargazers_count: Int
     let updated_at: String
     

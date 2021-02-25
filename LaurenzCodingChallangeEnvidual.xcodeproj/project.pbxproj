@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A2F8C6325E7AD4100936B83 /* SavedTableViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2F8C6225E7AD4100936B83 /* SavedTableViewTableViewController.swift */; };
 		8A39038325E6919100E09B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39038225E6919100E09B16 /* AppDelegate.swift */; };
 		8A39038525E6919100E09B16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39038425E6919100E09B16 /* SceneDelegate.swift */; };
 		8A39038725E6919100E09B16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39038625E6919100E09B16 /* ViewController.swift */; };
@@ -14,9 +15,21 @@
 		8A39038C25E6919200E09B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A39038B25E6919200E09B16 /* Assets.xcassets */; };
 		8A39038F25E6919200E09B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A39038D25E6919200E09B16 /* LaunchScreen.storyboard */; };
 		8A39039F25E6950A00E09B16 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39039E25E6950A00E09B16 /* Repository.swift */; };
+		8A3903AD25E6980700E09B16 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 8A3903AC25E6980700E09B16 /* Realm */; };
+		8A3903AF25E6980700E09B16 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8A3903AE25E6980700E09B16 /* RealmSwift */; };
+		8A3903B225E698BA00E09B16 /* MoyaRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3903B125E698BA00E09B16 /* MoyaRequests.swift */; };
+		8A3903B625E69BB000E09B16 /* RepositorySearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3903B525E69BB000E09B16 /* RepositorySearchViewModel.swift */; };
+		8A3903BF25E6B2EF00E09B16 /* CodableResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3903BE25E6B2EF00E09B16 /* CodableResponses.swift */; };
+		8A3903C325E6C30500E09B16 /* RepositoryNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3903C225E6C30500E09B16 /* RepositoryNetwork.swift */; };
+		B271ADD625E6F92D0022BA43 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271ADD525E6F92D0022BA43 /* TableViewCell.swift */; };
+		B271ADDC25E6FB230022BA43 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = B271ADDB25E6FB230022BA43 /* Moya */; };
+		B271ADDE25E6FB230022BA43 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = B271ADDD25E6FB230022BA43 /* ReactiveMoya */; };
+		B271ADE025E6FB230022BA43 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = B271ADDF25E6FB230022BA43 /* RxMoya */; };
+		B271ADE325E6FF7C0022BA43 /* RepositoryRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271ADE225E6FF7C0022BA43 /* RepositoryRealm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A2F8C6225E7AD4100936B83 /* SavedTableViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTableViewTableViewController.swift; sourceTree = "<group>"; };
 		8A39037F25E6919100E09B16 /* LaurenzCodingChallangeEnvidual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaurenzCodingChallangeEnvidual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A39038225E6919100E09B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A39038425E6919100E09B16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +39,12 @@
 		8A39038E25E6919200E09B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A39039025E6919200E09B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A39039E25E6950A00E09B16 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		8A3903B125E698BA00E09B16 /* MoyaRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaRequests.swift; sourceTree = "<group>"; };
+		8A3903B525E69BB000E09B16 /* RepositorySearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositorySearchViewModel.swift; sourceTree = "<group>"; };
+		8A3903BE25E6B2EF00E09B16 /* CodableResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableResponses.swift; sourceTree = "<group>"; };
+		8A3903C225E6C30500E09B16 /* RepositoryNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryNetwork.swift; sourceTree = "<group>"; };
+		B271ADD525E6F92D0022BA43 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B271ADE225E6FF7C0022BA43 /* RepositoryRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryRealm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +52,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B271ADE025E6FB230022BA43 /* RxMoya in Frameworks */,
+				8A3903AD25E6980700E09B16 /* Realm in Frameworks */,
+				B271ADDE25E6FB230022BA43 /* ReactiveMoya in Frameworks */,
+				8A3903AF25E6980700E09B16 /* RealmSwift in Frameworks */,
+				B271ADDC25E6FB230022BA43 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +82,7 @@
 		8A39038125E6919100E09B16 /* LaurenzCodingChallangeEnvidual */ = {
 			isa = PBXGroup;
 			children = (
-				8A39039D25E694E500E09B16 /* Repository */,
+				8A39039D25E694E500E09B16 /* Network */,
 				8A39039C25E694DD00E09B16 /* Model */,
 				8A39039B25E694D600E09B16 /* ViewModel */,
 				8A39039A25E693BA00E09B16 /* View */,
@@ -84,6 +108,8 @@
 			children = (
 				8A39038825E6919100E09B16 /* Main.storyboard */,
 				8A39038625E6919100E09B16 /* ViewController.swift */,
+				8A2F8C6225E7AD4100936B83 /* SavedTableViewTableViewController.swift */,
+				B271ADD525E6F92D0022BA43 /* TableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -91,6 +117,7 @@
 		8A39039B25E694D600E09B16 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				8A3903B525E69BB000E09B16 /* RepositorySearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -99,15 +126,19 @@
 			isa = PBXGroup;
 			children = (
 				8A39039E25E6950A00E09B16 /* Repository.swift */,
+				B271ADE225E6FF7C0022BA43 /* RepositoryRealm.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		8A39039D25E694E500E09B16 /* Repository */ = {
+		8A39039D25E694E500E09B16 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				8A3903B125E698BA00E09B16 /* MoyaRequests.swift */,
+				8A3903BE25E6B2EF00E09B16 /* CodableResponses.swift */,
+				8A3903C225E6C30500E09B16 /* RepositoryNetwork.swift */,
 			);
-			path = Repository;
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +157,13 @@
 			dependencies = (
 			);
 			name = LaurenzCodingChallangeEnvidual;
+			packageProductDependencies = (
+				8A3903AC25E6980700E09B16 /* Realm */,
+				8A3903AE25E6980700E09B16 /* RealmSwift */,
+				B271ADDB25E6FB230022BA43 /* Moya */,
+				B271ADDD25E6FB230022BA43 /* ReactiveMoya */,
+				B271ADDF25E6FB230022BA43 /* RxMoya */,
+			);
 			productName = LaurenzCodingChallangeEnvidual;
 			productReference = 8A39037F25E6919100E09B16 /* LaurenzCodingChallangeEnvidual.app */;
 			productType = "com.apple.product-type.application";
@@ -153,6 +191,10 @@
 				Base,
 			);
 			mainGroup = 8A39037625E6919100E09B16;
+			packageReferences = (
+				8A3903AB25E6980700E09B16 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				B271ADDA25E6FB230022BA43 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 8A39038025E6919100E09B16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -180,9 +222,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B271ADE325E6FF7C0022BA43 /* RepositoryRealm.swift in Sources */,
+				8A3903BF25E6B2EF00E09B16 /* CodableResponses.swift in Sources */,
+				8A2F8C6325E7AD4100936B83 /* SavedTableViewTableViewController.swift in Sources */,
+				8A3903B625E69BB000E09B16 /* RepositorySearchViewModel.swift in Sources */,
 				8A39038725E6919100E09B16 /* ViewController.swift in Sources */,
 				8A39038325E6919100E09B16 /* AppDelegate.swift in Sources */,
+				8A3903C325E6C30500E09B16 /* RepositoryNetwork.swift in Sources */,
+				B271ADD625E6F92D0022BA43 /* TableViewCell.swift in Sources */,
 				8A39038525E6919100E09B16 /* SceneDelegate.swift in Sources */,
+				8A3903B225E698BA00E09B16 /* MoyaRequests.swift in Sources */,
 				8A39039F25E6950A00E09B16 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +434,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8A3903AB25E6980700E09B16 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.7.0;
+			};
+		};
+		B271ADDA25E6FB230022BA43 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A3903AC25E6980700E09B16 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A3903AB25E6980700E09B16 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		8A3903AE25E6980700E09B16 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A3903AB25E6980700E09B16 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		B271ADDB25E6FB230022BA43 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B271ADDA25E6FB230022BA43 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		B271ADDD25E6FB230022BA43 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B271ADDA25E6FB230022BA43 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		B271ADDF25E6FB230022BA43 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B271ADDA25E6FB230022BA43 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8A39037725E6919100E09B16 /* Project object */;
 }
