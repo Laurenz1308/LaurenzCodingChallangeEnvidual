@@ -23,6 +23,10 @@ class SavedTableViewTableViewController: UITableViewController {
         observeViewModel()
         viewModel.fetch()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        viewModel.fetch()
+    }
 
     // Observing viewmodel publisher.
     private func observeViewModel() {
@@ -34,6 +38,7 @@ class SavedTableViewTableViewController: UITableViewController {
                 default: break
             }
         } receiveValue: { (repositories) in
+            print("\(repositories.count)")
             self.saved = repositories
             self.tableView.reloadData()
         }
